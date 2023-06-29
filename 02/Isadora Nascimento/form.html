@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<body>
+    <h2>CADASTRO PARA COMPRA DE INGRESSOS (Cold PLay):</h2>
+    <form>
+        <div>
+            <label for="idNomeCompleto">Digite seu nome completo:</label>
+            <input type="NomeCompleto" name="NomeCompleto" id="idNomeCompleto">
+        </div>
+
+        <div>
+            <label for="idData">Data de Nascimento:</label>
+            <input type="date" name="data" id="idData">
+        </div>
+
+        <div>
+            <label for="idEmail">Digite seu email:</label>
+            <input type="text" name="email" id="idEmail">
+        </div>
+
+        <div>
+            <label for="idIngresso">Selecione uma quantidade:</label>
+            <select name="Ingressos" id="idIngresso">
+                <option value="#">SELECIONAR</option>
+                <option value="1">1 INGRESSO</option>
+                <option value="2">2 INGRESSOS</option>
+                <option value="3">3 INGRESSOS</option>
+                <option value="4">4 INGRESSOS</option>
+                <option value="5">5 INGRESSOS</option>
+                <option value="6">6 INGRESSOS</option>
+                <option value="7">7 INGRESSOS</option>
+                <option value="8">8 INGRESSOS</option>
+                <option value="9">9 INGRESSOS</option>
+                <option value="10">10 INGRESSOS</option>               
+            </select>
+        </div>
+
+        <div>
+            <label for="idLugar">Onde você gostaria de ficar?</label>
+            <input type="checkbox" name="lugar" id="idLugar">PISTA 
+            <input type="checkbox" name="lugar" id="idLugar">CAMAROTE
+        </div>
+
+        <div>
+            <label for="idPagemento">Forma de pagameto:</label>
+            <input type="radio" name="pagamento" id="idPagamento">Cartão de Crédito
+            <input type="radio" name="pagamento" id="idPagamento">Cartão de Débito
+            <input type="radio" name="pagamento" id="idPagamento">Dinheiro
+            <input type="radio" name="pagamento" id="idPagamento">Boleto
+        </div>
+
+        <div>
+            <input type="submit" value="ENVIAR" class="btn btn-primary">
+        </div>
+    </form>
+</body>
+</html>

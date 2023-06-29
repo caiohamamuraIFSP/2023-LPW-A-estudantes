@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>JOGO DA VELHA</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="cabecalho">JOGANDO: <span id="jogador"></span></h1>
+    <table id="quadro">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
+

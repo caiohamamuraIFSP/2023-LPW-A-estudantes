@@ -1,0 +1,17 @@
+body {
+    background-color: khaki
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    margin: auto;
+    width: 30%;
+}
+#imagem{
+    display: flex;
+}

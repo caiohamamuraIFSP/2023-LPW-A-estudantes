@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="assets/logo_ifsp.png" type="image/x-icon">
+        <script src="script.js"></script>
+        <title>Calculadora do IF</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img id="logo_ifsp" src="assets/logo_ifsp.png" alt="logo_ifsp"></a>
+        </header>
+        <div class="tela">
+            <div id="container_form">
+                <div id="input-materia">
+                    <div class="input">
+                        <label>Nome da Matéria:</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div id="input-notas">
+                    <label>Notas do:</label>
+                    <div class="dois_bi">
+                        <div class="input">
+                            <label class="textos_bimestres">1º Bimestre</label>
+                            <input type="number" id="nota1">
+                        </div>
+                        <div class="input">
+                            <label class="textos_bimestres">2º Bimestre</label>
+                            <input type="number" id="nota2">
+                        </div>
+                    </div>
+                    <div class="dois_bi">
+                        <div class="input">
+                            <label class="textos_bimestres">3º Bimestre</label>
+                            <input type="number" id="nota3">
+                        </div>
+                        <div class="input">
+                            <label class="textos_bimestres">4º Bimestre</label>
+                            <input type="number" id="nota4">
+                        </div>
+                    </div>
+                </div>
+                <button onclick="calcula()">CALCULAR</button>
+                <div id="media"></div>
+            </div>
+        </div>
+    </body>
+</html>

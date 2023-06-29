@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #03152e;
+    color: white;
+}
+main{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    display: inline-flex;
+}
+.Altura, .Peso, .calc{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button{
+    background-color: cornflowerblue;
+    padding: 13px;
+    font-size: 20px;
+    outline: none;
+    border: groove;
+    border-radius: 99px;
+}
+button{
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+}

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin:0px;
+    background-color: #e6e6e6;
+    overflow-x: hidden;
+}
+
+#texto-fixo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+}
+
+.texto{
+    display: flex;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    font-size: 40px;
+    top: 40px;
+    color: rgb(36, 36, 36);
+}
+
+.negrito{
+    margin-right: 4px;
+    margin-left: 4px;
+    font-weight:bold;
+}
+
+#container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    bottom: 70px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.nome-produto{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#playstation5{
+    position: relative;
+    margin-left: 30px;
+    margin-right: auto;
+    min-width: 350px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    top: 110px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    -moz-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    box-shadow: 0px 6px 19px 4px rgba(0,0,0,0.2);
+}
+
+#logo-playstation5{
+    position: absolute;
+    width: 120px;
+    left: 15px;
+    top: 60px;
+}
+
+#foto-playstation5{
+    position: absolute;
+    width: 250px;
+    left: 45px;
+    top: 180px;
+}
+
+#xbox-series-s{
+    position: relative;
+    left: 20px;
+    margin-right: auto;
+    min-width: 350px;
+    height: 450px;
+    background-color: #107c10;
+    top: 110px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    -moz-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    box-shadow: 0px 6px 19px 4px rgba(0,0,0,0.2);
+    color:white;
+}
+
+#logo-xbox-series-s{
+    position: absolute;
+    width: 90px;
+    left: 15px;
+    top: 60px;
+}
+
+#foto-xbox-series-s{
+    position: absolute;
+    width: 320px;
+    left: 0px;
+    top: 115px;
+}
+
+#nintendo-switch{
+    position: relative;
+    left: 40px;
+    margin-right: auto;
+    min-width: 350px;
+    height: 450px;
+    background-color: #e60012;
+    top: 110px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    -moz-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    box-shadow: 0px 6px 19px 4px rgba(0,0,0,0.2);
+    color:white;
+}
+
+#logo-nintendo{
+    position: absolute;
+    width: 250px;
+    left: 15px;
+    top: 60px;
+}
+
+#foto-nintendo{
+    position: absolute;
+    width: 300px;
+    left: 25px;
+    top: 285px;
+}
+
+#atari{
+    position: relative;
+    left: 60px;
+    margin-right: auto;
+    min-width: 350px;
+    height: 450px;
+    background-color: white;
+    top: 110px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    -moz-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    box-shadow: 0px 6px 19px 4px rgba(0,0,0,0.2);
+    color: #e51b24;
+}
+
+#logo-atari{
+    position: absolute;
+    width: 140px;
+    left: 10px;
+    top: 60px;
+}
+
+#foto-atari{
+    position: absolute;
+    width: 300px;
+    left: 25px;
+    top: 285px;
+}
+
+#playstation4{
+    position: relative;
+    left: 80px;
+    margin-right: auto;
+    min-width: 350px;
+    height: 450px;
+    background-color: #00439c;
+    top: 110px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    -moz-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    box-shadow: 0px 6px 19px 4px rgba(0,0,0,0.2);
+    color: white;
+}
+
+#logo-playstation4{
+    position: absolute;
+    width: 120px;
+    left: 15px;
+    top: 60px;
+}
+
+#foto-playstation4{
+    position: absolute;
+    width: 330px;
+    left: 10px;
+    top: 205px;
+}
+
+#xbox-series-x{
+    position: relative;
+    left: 100px;
+    margin-right: 130px;
+    min-width: 350px;
+    height: 450px;
+    background-color: #201f24;
+    top: 110px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    -moz-box-shadow: 0px 6px 19px 4px rgba(0,0,0,0,2);
+    box-shadow: 0px 6px 19px 4px rgba(0,0,0,0.2);
+    color: #107c10;
+}
+
+#logo-xbox-series-x{
+    position: absolute;
+    width: 90px;
+    left: 15px;
+    top: 60px;
+}
+
+#foto-xbox-series-x{
+    position: absolute;
+    width: 350px;
+    right: 15px;
+    top: 170px;
+}
+
+#titulo2{
+    margin-top: 650px;
+}
+
+#container2{
+    position: relative;
+}
+
+#fifa{
+    border: 10px double black;
+    position: absolute;
+    width: 690px;
+    top: 70px;
+    padding: 10px;
+}
+
+#pes{
+    border: 10px double black;
+    position: absolute;
+    width: 700px;
+    top: 70px;
+    left: 700px;
+    padding: 10px;
+}

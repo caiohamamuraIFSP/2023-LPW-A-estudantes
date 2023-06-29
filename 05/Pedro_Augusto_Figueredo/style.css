@@ -1,0 +1,55 @@
+h3:hover{
+    animation-duration: 5s;
+    animation-name: giro;
+}
+@keyframes giro{
+    30% {
+        transform: rotate(20deg);
+    }
+    60% {
+        transition: 5s;
+        color: rgb(180, 179, 179);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+table{
+    left: 10px;
+    border-collapse: collapse;
+}
+#titulo{
+    text-align: center;
+}
+td{
+    color: white;
+    border: black solid;
+    padding: 2vh;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+body{
+    background-color: rgb(180, 179, 179);
+}
+.titulo{
+
+}
+th{
+    color: white;
+
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+    text-align: center;
+
+}
+p{
+    color: white;
+
+}

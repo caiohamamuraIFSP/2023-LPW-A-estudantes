@@ -1,0 +1,53 @@
+
+body {margin:0;}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    height: 100vh;
+    transition: s;
+    
+}
+
+#container.nav-aberto {
+    grid-template-columns: 8fr 4fr;
+    
+}
+
+header {
+    background-color: red;
+    grid-column: 1 / 4;
+    font-size: xx-large;
+    
+
+}
+
+
+nav {
+    background-color: pink;    
+    grid-row: 2 / 5;
+    grid-column: 3;
+    width: 15vh;
+    font-size: xx-large;
+   
+}
+
+#conteudo {
+    display: block;
+    background-color: pink; 
+    grid-column: 1; 
+    grid-row: 2 / 5;
+    
+      
+
+}
+
+footer {
+    background-color: teal; 
+    grid-row: 2 / 5;
+    font-size:x-large;
+    
+       
+}

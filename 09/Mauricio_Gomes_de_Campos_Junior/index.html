@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- The above code creates a table on an html page. It uses the "style.css" and "script.js" files to apply formatting and add functionality to the page. The table has three rows and three columns, each column being an empty td element. This creates a tic-tac-toe board for the user to interact with. -->
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="cabecalho">Vez de <span id="jogador"></span></h1>
+    <table id="quadro">
+      <tr>
+        <td id="um"></td>
+        <td id="dois"></td>
+        <td id="tres"></td>
+      </tr>
+      <tr>
+        <td id="quatro"></td>
+        <td id="cinco"></td>
+        <td id="seis"></td>
+      </tr>
+      <tr>
+        <td id="sete"></td>
+        <td id="oito"></td>
+        <td id="nove"></td>
+      </tr>
+    </table>
+    <div id="botao">
+      <button id="reiniciar" onclick="window.location.reload()">Reiniciar</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

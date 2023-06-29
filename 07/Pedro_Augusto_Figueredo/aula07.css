@@ -1,0 +1,22 @@
+body {
+    color: burlywood
+    
+}
+#titulo {
+    background-color: rgb(44, 44, 51);
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem;
+    grid-column: 1/4;
+}
+
+#cont {
+    background-color: rgb(44, 44, 51);
+    font-size: 2rem;
+    grid-column: 2;
+    justify-self:center;
+    list-style: none;
+}
+#cont li {
+    padding: 3px;
+}

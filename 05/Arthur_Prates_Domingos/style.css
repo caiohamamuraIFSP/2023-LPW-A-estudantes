@@ -1,0 +1,33 @@
+#list_title{
+    display: block;
+    text-align:  center;
+}
+#title{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+#subtitle{
+    display: block;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+p:hover {
+    animation-duration: 2s;
+    animation-name: anim;
+
+}
+@keyframes anim {
+    100%{
+        transform: rotate(-360deg) translateX(180px);
+        opacity:100%
+    }
+
+} 
+span>li{
+    color: rgb(156, 0, 0);
+}

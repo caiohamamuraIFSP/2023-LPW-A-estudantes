@@ -1,0 +1,120 @@
+body{
+
+    margin: 0;
+
+    background-color: #B2F3AD;
+
+}
+
+
+
+.cabecalho{
+
+    background-color: #59FF4b;
+
+    display: flex;
+
+    justify-content: left;
+
+    align-items: left;
+
+    margin: 0;
+
+}
+
+
+
+.login{
+
+    width: 100vw;
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.home_login{
+
+    width: 75vw;
+
+    height: 125vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.home_cadastro{
+
+    width: 50vw;
+
+    height: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+
+
+.card_login{
+
+    width: 70%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    padding: 15px 20px;
+
+    background-color: #51DE46;
+
+    border-radius: 100px;
+
+
+
+}
+
+
+
+.card_cadastro{
+
+    width: 70%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    padding: 15px 20px;
+
+    background-color: #51DE46;
+
+    border-radius: 100px;
+
+}
+

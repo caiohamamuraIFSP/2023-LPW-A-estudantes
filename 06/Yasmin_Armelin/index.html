@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular Média</title>
+    <style>
+        body{
+            background-color: rgb(220, 202, 236);
+        }
+    </style>
+</head>
+
+<body>
+    <span class="centro">
+    <h1>Calculando a Média!</h1>
+    <h2>Insira os valores:</h2>
+    <div>
+        Nota 1: <input type="number" name="nota1" id="nota1">
+    </div>
+    <br>
+    <div>
+        Nota 2: <input type="number" name="nota2" id="nota2">
+    </div>
+    <br>
+    <div>
+        Nota 3: <input type="number" name="nota3" id="nota3">
+    </div>
+    <br>
+    <div>
+        Nota 4: <input type="number" name="nota4" id="nota4">
+    </div>
+    <br>
+    <button onclick="botao()">Calcular</button>
+    
+
+    <div id="resultado"></div>
+
+    <script>
+        function botao()
+        {
+            resultado.innerHTML = ((nota1.valueAsNumber + nota2.valueAsNumber + nota3.valueAsNumber + nota4.valueAsNumber)/ 4);
+        }
+
+    </script>
+    </span>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+img{
+    height: 20vw;
+}
+
+.inicio{
+    display: flex;
+}
+.bo{
+    display: flex;
+    align-items: center;
+}
+.centro{
+    margin: auto;
+}
+
+#imagem{
+    width: 80%;
+    height: auto;
+}
+
+#idTitulo{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

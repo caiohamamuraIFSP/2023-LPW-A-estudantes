@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#altura{
+    height: 30px;
+    width: 150px;
+    background-color: darkgreen;
+}
+#peso{
+    background-color: darkgreen;
+    height: 30px;
+    width: 150px;
+}
+
+#calc-btn{
+    height: 20px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    transition: 1s ease-in-out;
+    background-color: darkgreen;
+}
+#calc-btn:hover {
+    transition: 1s ease-in-out;
+    border: 1px solid #ffffff;
+}
+
+#resultado{
+    font-size: 15px;
+}
+
+

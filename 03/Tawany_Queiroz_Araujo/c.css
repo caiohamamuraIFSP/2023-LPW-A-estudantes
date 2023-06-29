@@ -1,0 +1,51 @@
+#lightgrey{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+#palevioletred{
+    position:absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    z-index: 4;
+    background-color: palevioletred;
+}
+
+#royalblue{
+    top: 25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    z-index: 4;
+    background-color: royalblue;
+}
+
+#externo{
+    width: 300px;
+    height: 300px;
+    background-color: lightyellow;
+}
+
+#conteudo {
+    width: 300px;
+    height: 20px;
+    top: 50px;
+    background-color: midnightblue;
+}
+
+#conteudo2{
+    color: darkmagenta;
+    width: 100px;
+    height: 100px;
+    background-color:whitesmoke;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+
+}

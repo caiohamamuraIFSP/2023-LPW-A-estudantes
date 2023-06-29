@@ -1,0 +1,45 @@
+p:hover{
+    animation-duration: 7s;
+    animation-name: giro;
+
+}
+@keyframes giro{
+    40% {
+        transform: rotate(20deg);
+    }
+    70% {
+        transition: 7s;
+        color: rgb(209, 0, 0);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+table{
+    left: 10px;
+    border-collapse: collapse;
+}
+#titulo{
+    text-align: center;
+}
+
+th,
+td{
+    border: rgb(209, 0, 0) solid;
+    padding: 2vh;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+body{
+    background-color: rgb(255, 235, 209);
+}
+h1{
+    color: rgb(221, 53, 53);
+}
+p {
+    text-align: center;
+}
+

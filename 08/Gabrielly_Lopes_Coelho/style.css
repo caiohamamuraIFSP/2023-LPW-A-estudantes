@@ -1,0 +1,51 @@
+body{
+    border:10px;
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    margin: center;
+    font-family: 'Times New Roman';
+    color: white;
+    background-color: dodgerblue ;
+}
+
+#idImagem{
+    margin: auto;
+    width: 50%;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: deepskyblue;
+}
+
+h2{
+    color: white;
+}
+
+.inicio{
+    width: 60%;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+

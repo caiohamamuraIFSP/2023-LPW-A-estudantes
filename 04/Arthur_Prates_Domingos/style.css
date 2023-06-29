@@ -1,0 +1,48 @@
+body{margin:0}
+#container{
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    grid-template-rows: 1fr 7fr;
+}
+.conteudo{
+    display: flex ;
+    background-color: black ;
+    justify-content: center;
+    align-items: center; 
+
+}
+header{
+    grid-column: 1/4;
+    background-color: rgb(175,175,175);
+
+}
+nav{
+    flex-flow: column;
+    grid-row: 2/3; 
+    background-color: rgb(159, 0, 0); 
+    font-family: fantasy;
+    
+}
+sidenav{ 
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(159, 0, 0) ;
+    align-items: center;
+    justify-content: space-around;
+
+}
+img{
+    border-radius: 50px;
+}
+.cabeçalho{
+    font-family: fantasy;
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+}
+#container.nav-aberto {
+    grid-template-columns: 1fr 2fr;
+    
+}

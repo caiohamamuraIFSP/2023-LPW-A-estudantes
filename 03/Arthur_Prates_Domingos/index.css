@@ -1,0 +1,81 @@
+.background-site{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+#tag-fundo{
+    position:sticky;
+    top: 0px;
+    background-color: black;
+    width: 360px;
+    height:100px;
+    border-radius: 5%;
+    z-index: 1;
+}
+#espaço-icon{
+    position: absolute;
+    top: 9px;
+    left: 21px;
+}
+ .icon{
+    position: absolute;
+    border-radius: 50%;
+    border-color: rgb(172, 4, 4);
+    border-style:solid;
+   
+
+}
+.name{
+    position: absolute;
+    color: white;
+    top: 6px;
+    left: 135px;
+    font-size: 60px;
+    font-family: fantasy;
+}
+#about-me-background{
+    position:relative;
+    background-color: black;
+    width: 340px;
+    height: 340px;
+    top:135px;
+    left: 20px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+
+}
+.border{
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+.title{
+    margin: 2%;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 130%;
+
+}
+.body{
+    position: absolute;
+    color: white;
+    top: 50px;
+    font-size: 80%;
+    font-family: fantasy;
+    left: 3%;
+}
+.middle-image{
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    display: block;
+    border-radius: 50%;
+
+}

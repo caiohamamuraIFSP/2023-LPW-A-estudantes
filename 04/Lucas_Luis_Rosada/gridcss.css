@@ -1,0 +1,29 @@
+body{margin: 0;}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 0.5fr 5fr;
+    height: 100vh;
+}
+
+header{
+    grid-column: 1/6;
+    background-color: rgb(80, 79, 79);
+}
+
+nav{
+    background-color: rgb(113, 224, 224);
+}
+
+#conteudo{
+    background-color: rgb(43, 226, 226);
+    
+}
+
+#shell{
+    background-color: rgb(96, 196, 226);
+}
+#im{
+    height: 1001px;
+}

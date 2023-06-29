@@ -1,0 +1,16 @@
+#quad {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+canvas {
+    background-color: white;
+    background-image: url("https://static5.depositphotos.com/1004348/480/i/600/depositphotos_4806341-stock-photo-colorful-stars-in-the-night.jpg");
+}
+
+body {
+    
+    margin:0
+}

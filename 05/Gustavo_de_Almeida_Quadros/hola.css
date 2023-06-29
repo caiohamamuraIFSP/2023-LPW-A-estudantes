@@ -1,0 +1,27 @@
+li:hover {
+    animation-duration: 2s;
+    animation-name: gira;
+}
+
+@keyframes gira {
+    30% {
+        transform: rotate(-45deg);
+        opacity: 0;
+    }
+
+    60% {
+        color: greenyellow;
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+div{
+    transition: all 2s ease-in-out;
+
+}
+div:hover {
+    font-size: 200px;
+}

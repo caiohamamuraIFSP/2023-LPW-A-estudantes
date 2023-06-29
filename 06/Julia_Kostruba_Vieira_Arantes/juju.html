@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="juju.css">
+    <title>Media</title>
+    <style>
+        body{
+            background-color: rgb(103, 187, 138);
+        }
+    </style>
+</head>
+
+<body>
+    <span class="centro">
+    <h1>Calculadora de Média.</h1>
+    <h2>bota os valores:</h2>
+    <div>
+        Nota 1: <input type="number" name="nota1" id="nota1">
+    </div>
+    <br>
+    <div>
+        Nota 2: <input type="number" name="nota2" id="nota2">
+    </div>
+    <br>
+    <div>
+        Nota 3: <input type="number" name="nota3" id="nota3">
+    </div>
+    <br>
+    <div>
+        Nota 4: <input type="number" name="nota4" id="nota4">
+    </div>
+    <br>
+    <button onclick="botao()">Calcular</button>
+    
+
+    <div id="resultado"></div>
+
+    <script>
+        function botao()
+        {
+            resultado.innerHTML = ((nota1.valueAsNumber + nota2.valueAsNumber + nota3.valueAsNumber + nota4.valueAsNumber)/ 4);
+        }
+
+    </script>
+    </span>
+    <span class="centro">
+    <img src="https://www.papeleparede.com.br/15385-large_default/papel-de-parede-infantil-soneca-em-tons-de-branco-rosa-azul-e-amarelo.jpg">
+    </span>
+
+</body>
+
+</html>

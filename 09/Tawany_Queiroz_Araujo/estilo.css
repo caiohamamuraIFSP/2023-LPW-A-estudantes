@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 10vh;
+  margin: 5vh;
+  padding: 0;
+  text-align: center;
+  color: rgb(4, 72, 95);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  width: min(25vw, 22vh);
+  height: min(25vw, 22vh);
+  border: 1px solid;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgba(26, 69, 83, 0.979);
+}
+
+td:hover {
+  background-color: rgb(58, 162, 197);
+}

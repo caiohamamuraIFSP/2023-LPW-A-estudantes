@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+}
+
+img{
+    width: 700px;
+    height: 350px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

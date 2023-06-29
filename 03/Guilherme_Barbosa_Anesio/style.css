@@ -1,0 +1,232 @@
+    body{
+        margin: 0;
+        height: 2000px;
+    }
+    .campo{
+        height: 500px;
+        width: 1000px;
+        background-color: green;
+        border: 6px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:relative;
+        left: 5px;
+        top: 5px;
+    }
+    #circulo{
+        height: 200px;
+        width: 180px;
+        border: 5px solid white;
+        border-radius: 50%;
+        position: relative;
+        right: -12px;
+    }
+    #reta{
+        height: 502px;
+        width: 10px;
+        background-color: white;
+        position:relative;
+        left: -84px;
+        right:5px ;
+        top: 5px;
+    }
+    #bola_circulo{
+        height: 30px;
+        width: 25px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 40%;
+        left: -102px;
+        right: 5px;
+    }
+    .area_direita{
+        height: 380px;
+        width: 200px;
+        border: 5px solid rgb(255, 255, 255);
+        position:relative;
+        left: 387px;
+    }
+    .area_esquerda{
+        height: 380px;
+        width: 200px;
+        border: 5px solid rgb(255, 255, 255);
+        position:relative;
+        left: -617px;
+
+    }
+    #area_menor{
+        height: 249px;
+        width: 108px;
+        border: 5px solid white;
+        position: relative;
+        left: 85px;
+        top: 72px;
+    }
+    #area_menor2{
+        height: 249px;
+        width: 108px;
+        border: 5px solid white;
+        position: relative;
+        left: -3px;
+        top: 72px;
+    }
+    #penal{
+        height: 20px;
+        width:15px;
+        background-color: white;
+        position: relative;
+        left: 25px;
+        top: -76px;
+        border-radius: 40%;
+        padding: 5px;
+    }
+    #penal2{
+        height: 20px;
+        width:15px;
+        background-color: white;
+        position: relative;
+        left: 145px;
+        top: -76px;
+        border-radius: 40%;
+        padding: 5px;
+    }
+    .meio{
+        position:relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 217px;
+    }
+    #meia_lua{
+        float: left;
+        width: 146px;
+        height: 157px;
+        margin: 20px;
+        shape-outside: circle(50% at 30%);
+        clip-path: circle(50% at 0%);
+        background-color: white;
+        position: relative;
+        top: -164px;
+        left: 184px;
+    }
+    #meia{
+        float: right;
+        width: 146px;
+        height: 157px;
+        margin: 20px;
+        shape-outside: circle(50% at 30%);
+        clip-path: circle(50% at 0%);
+        background-color: white;
+        position: relative;
+        top: -46px;
+        left: 171px;
+    }
+    .rotate{
+        transform: rotate(180deg);
+    }
+    #cassio{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: 5px;
+        top: -305px;
+
+    }
+    #gil{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: 52px;
+        top: -229px;
+
+    }
+    #bruno{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -46px;
+        top: -384px;
+
+    }
+    #fagner{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -95px;
+        top: -104px;
+
+    }
+    #fabio{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -209px;
+        top: -495px;
+
+    }
+    #fausto{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -101px;
+        top: -432px;
+
+    }
+    #giuliano{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -210px;
+        top: -179px;
+
+    }
+    #renato{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -122px;
+        top: -308px;
+
+    }
+    #roger{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -46px;
+        top: -476px;
+
+    }
+    #yuri{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -47px;
+        top: -297px;
+
+    }
+    #adson{
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: -220px;
+        top: -120px;
+    }
+    .texts{
+        position: relative;
+        left: 1041px;
+        top: -574px;
+        background-color: #423f3985;
+        height: 445px;
+        width: 150px;
+    }
+    #text{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90px;
+        background-color: #fd1d1d85;
+    }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cobertura de fundos</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<body>
+<h1>Cadastro de cobertura de fundos básicos</h1>
+
+<p>se você é uma pessoa que está a procura de uma ajuda financeira, nós, o banco luca, em conjunto com a secretaria dos direitos humanos, fundamos esse programa</p>
+<form action="/cumprimentar">
+    <div class="d-flex align-items-end">
+        <label for="idNome">Nome:</label>
+        <input type="text" name="nome"  id="idNome" placeholder="Digite seu nome completo">
+    </div>  
+    <div>
+        <label for="datanascimento" class="form_label">Data de Nascimento:</label>
+        <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required>
+    </div>     
+    <div>
+        <label for="e-mail" class="form_label">Email:</label>
+        <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+    </div>        
+    <div>
+        <label for="estadocivil">Renda familar:</label>
+        <select name="estadocivil" name="estadocivil">
+                        
+        <option selected disabled class="1" value="">Selecione</option>
+        <option value="mais de 1200" class="2">mais de 1200</option>
+        <option value="menos de 1200" class="3Div">menos de 1200 </option>
+        <option value="mais ou igual a 5000" class="4">mais ou igual a 5000</option>                    
+        <option value="outro valor" class="5">outro valor</option>                    
+                    
+                    </select>
+        </div>
+        <div>
+            <span class="legenda">Sexo:</span>
+        <div>
+            <input type="radio" id="masculino" name="sexo" value="Masculino" required="required">
+            <label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span> Masculino</label>
+        </div>
+        <div>
+            <input type="radio" id="feminino" name="sexo" value="Feminino" required="required">
+            <label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span> Feminino</label>
+        </div>
+        <div>
+            <label for="message"> Digite o seu propósito:</label>
+            <textarea name="mensagem"  rows="3"  cols="30">
+            </textarea>
+        </div>
+        <div class="submit">
+            <input type="hidden" name="acao" value="enviar">
+            <input type="submit" value="Cadastra-se" class="btn btn-primary">
+    </div>
+            </form>
+    </div>
+</body>
+</html>

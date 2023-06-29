@@ -1,0 +1,28 @@
+#titulo-principal{
+    color: blueviolet;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.gira:hover {
+    animation-duration: 2s;
+    animation-name: gira;
+}
+
+@keyframes gira {
+    30% {
+        transform: rotate(-45deg);
+        opacity: 0;
+    }
+
+    60% {
+        color: rgb(48, 70, 17);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

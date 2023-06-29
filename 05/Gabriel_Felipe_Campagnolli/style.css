@@ -1,0 +1,24 @@
+input[type=button]:focus{
+    background-color: aqua;
+
+}
+
+.imgAntes{
+    width: 100px;
+}
+.imgAntes:hover{
+    animation-duration: 5s;
+    animation-name: img1;
+}
+@keyframes img1{
+    
+    100%{
+        transform: translateX(5cm);
+        width: 250px;
+        
+    }
+}
+
+
+
+

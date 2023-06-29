@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Calculo da área do triângulo retângulo
+    </div>
+    <div>
+        <br><br>
+            base:  <input type="number" name="valor" id="valor">
+    </div>
+    <div>
+        <br>
+        altura:<input type="number" name="valor2" id="valor2">
+    </div>
+    <div">
+        <br>
+        <button onclick="calcula()">Calcula </button> 
+    </div>
+    <div id="resultado"></div>   
+    <script>
+        function calcula() {
+            resultado.innerHTML = valor.valueAsNumber * valor2.valueAsNumber / 2;
+            console.log(resultado.innerHTML);
+        }
+    </script>
+</body>
+</html>

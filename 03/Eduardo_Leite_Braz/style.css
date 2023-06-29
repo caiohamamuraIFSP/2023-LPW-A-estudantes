@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2{
+    position: absolute;
+    bottom: 0px;
+    }
+body{
+    width: 100vw;
+    height: 300vh;
+}
+div {
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    margin: 1px 200px 200px 200px;
+    padding: 0px;
+    color: #fff;
+}
+#bloco1{
+    position: relative;
+    background-color: blue;
+}
+#bloco2 {
+    position: absolute;
+    background-color: #000;
+    top: 50px; 
+    left: 50px;
+}
+#bloco3{
+    top: 25px;
+    position:sticky;
+    background-color: brown;
+}

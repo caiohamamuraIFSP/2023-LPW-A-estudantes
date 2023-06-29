@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    border: black solid 1px;
+    padding: 4px;
+}
+#mercado{
+    text-align: center;
+}
+#tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    background: url(assets/background.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -7vw;
+}
+
+.tela{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+#logo_ifsp{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    user-select: none;
+}
+
+#container_bem-vindo{
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 2px 17px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 17px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 17px -10px rgba(0,0,0,0.75);
+    line-height: 40px;
+}
+
+#bem-vindo{
+    color: #2b9f3f;
+    font-size: 40px;
+    user-select: none;
+}
+
+#bem-vindo > #texto1{
+    font-weight: 900;
+}
+
+#botao_entrar{
+    font-size: 20px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid #2b9f3f;
+    border-radius: 40px;
+    margin-top: 20px;
+    color: #2b9f3f;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#botao_entrar:hover{
+    color: white;
+    background-color: #2b9f3f;
+}
+
+#container_form{
+    width: 40vw;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 2px 17px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 17px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 17px -10px rgba(0,0,0,0.75);
+}
+
+#input-materia,
+#input-notas{
+    width: 100%;
+}
+
+#input-notas{
+    margin-top: 50px;
+}
+
+.dois_bi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.textos_bimestres{
+    font-size: 25px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label{
+    color: #2b9f3f;
+    font-size: 40px;
+    font-weight: 700;
+    user-select: none;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #2b9f3f;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #2b9f3f;
+    border-radius: 40px;
+    margin-top: 50px;
+    color: #2b9f3f;
+    text-decoration: none;
+    transition: 0.3s;
+    user-select: none;
+}
+
+button:hover{
+    color: white;
+    background-color: #2b9f3f;   
+}

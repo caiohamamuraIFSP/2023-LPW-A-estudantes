@@ -1,0 +1,9 @@
+h1, h2, div{
+    color:rgba(43, 94, 51, 0.61)
+}
+.centro {
+    padding-top: 200px;
+    display: block;
+    text-align: center;
+}
+

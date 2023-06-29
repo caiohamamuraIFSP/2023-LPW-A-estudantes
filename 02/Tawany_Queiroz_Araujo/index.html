@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Ticket Mc Pipokinha</title>
+</head>
+<body>
+    <span class="images">
+        <img src="https://www.imgcok.com/gNqtzbJVwo1Dnw0ggkJB_4GtejU=/954x500/https://s3-sa-east-1.amazonaws.com/s3-eventos-saas/media/eventos/cd7c49fb-0183-43f4-b082-eef9f5791ed7.jpeg" alt="">
+    </span><br>
+    <div>
+        <h1>Show da Pipokinha</h1><br>
+        <h2>Descrição do Evento:</h2><br>
+        <p>Show da Pipokinha - 05/03/2023</p>
+        <p>Dunkel - Curitiba, PR</p><br>
+    </div>
+    <form action="/ingress">
+        <div>
+            <label for="idNome">Nome:</label>
+            <input type="text" name="nome" id="idNome">
+            <br><br>
+            <p>Você possui 18 anos?</p>
+            <input type="radio" id="sim" name="decisao" value="comprapodeserefetuada">
+            <label for="sim">Sim</label><br>
+            <input type="radio" id="nao" name="decisao" value="compranaopodeserefetuada">
+            <label for="nao">Não</label><br>
+            Quantidade de Ingressos: <input type="number" name="qtd" min="1" max="5"><br><br>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&family=Golos+Text:wght@400;500;600;700&display=swap');
+
+*{margin: 0;}
+
+body{
+    background: url(assets/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#titulo{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    user-select: none;
+    transition: 0.8s ease-out;
+}
+
+#titulo:hover{
+    font-size: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 80%;
+}
+
+table{
+    width: 80vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    user-select: none;
+}
+
+th,td{
+    font-family: 'Golos Text', sans-serif;
+}
+
+th{
+    font-size: 16px;
+}
+
+td{
+    font-size: 12px;
+}
+
+td:hover {
+    animation-duration: 1s;
+    animation-name: gira;
+}
+
+@keyframes gira {
+    0% {
+        transform: translateX(-45deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0deg);
+        opacity: 1;
+    }
+}
+
+
+img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.numeros{
+    text-align: center;
+}

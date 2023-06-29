@@ -1,0 +1,14 @@
+body{
+    flex-flow: column;
+    display: flex;
+    background-color: rgb(150, 86, 96);
+}
+h1{
+    text-align: center;
+}
+
+canvas {
+    position: relative;
+    border: solid 5px black;
+    border-radius: 50%;
+    margin: auto;}

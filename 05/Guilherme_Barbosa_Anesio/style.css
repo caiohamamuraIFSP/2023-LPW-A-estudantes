@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+.img{
+   left: 5px;
+   top: 5px;
+}
+
+img:hover{
+    position: relative;
+    animation: rotate 0.02s linear infinite;
+}
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr{
+      transition: 1.7s;
+  }
+
+  tr:hover {
+    background-color: #fa0202;
+  }

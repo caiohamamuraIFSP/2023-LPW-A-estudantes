@@ -1,0 +1,26 @@
+#body{
+    background-color: rgb(51, 51, 161);
+}
+
+img{
+    height: 10vw;
+}
+
+.inicio{
+    display: flex;
+}
+.bo{
+    align-items: center;
+}
+.centro{
+    margin: auto;
+}
+
+#imagem{
+    height: auto;
+}
+
+#idTitulo{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

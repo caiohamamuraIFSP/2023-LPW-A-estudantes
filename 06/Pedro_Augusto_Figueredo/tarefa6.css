@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(251, 255, 37, 0.397);
+    font-family: 'arial', cursive;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#altura{
+    height: 30px;
+    width: 150px;
+}
+#peso{
+    height: 30px;
+    width: 150px;
+}
+
+#calc-btn{
+    height: 40px;
+    width: 125px;
+    cursor: pointer;
+    background: #8e81ff;
+    border: 1px solid #8e81ff;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 30%;
+}
+#calc-btn:hover {
+    transition: 1s ease-in-out;
+    background: #8e81ff;
+    border: 1px solid #ffffff;
+}
+
+#resultado{
+    font-size: 15px;
+}
+
+
+.baixo-peso {
+    color: #ff9900;
+  }
+  
+  .peso-normal {
+    color: #098125;
+  }
+  
+  .sobrepeso {
+    color: #f3e300;
+  }
+  
+  .obesidade {
+    color: #dc3545;
+  }
