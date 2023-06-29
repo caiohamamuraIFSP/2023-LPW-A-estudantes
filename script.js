@@ -16,10 +16,14 @@ createApp({
     },
     mounted() {
         this.w = window.innerWidth;
+        window.addEventListener('resize', this.windowResize);
+    },
+    unmounted() {
+        window.removeEventListener('resize', this.windowResize);
     },
     data() {
         return {
-            w: '200',
+            w: 200,
             titulo: 'Aluno',
             aluno: 'João',
             alunos: [],
@@ -41,7 +45,7 @@ createApp({
             if (this.alunos.length == 0) return;
             return Object.keys(this.alunos).sort().map(e => ({
                 key: e,
-                aluno: e.replaceAll('_',' '),
+                aluno: e.replaceAll('_', ' '),
             }));
         },
         nomeAluno() {
@@ -65,11 +69,11 @@ createApp({
         },
     },
     methods: {
-        alunoAlterado(){
+        alunoAlterado() {
             this.linkFrame = '';
             this.aula = '';
         },
-        aulaAlterada(){
+        aulaAlterada() {
             this.linkFrame = '';
             this.aluno = '';
         },
@@ -84,6 +88,9 @@ createApp({
         },
         getLink(item) {
             return this.alunos[item.key][this.aula.toString()];
-        }
+        },
+        windowResize() {
+            this.w = window.innerWidth;
+        },
     }
 }).use(vuetify).mount('#app')
