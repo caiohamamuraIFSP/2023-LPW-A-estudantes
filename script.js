@@ -11,7 +11,6 @@ const vuetify = createVuetify({
 createApp({
     async created() {
         this.alunos = await (await fetch('alunos.json')).json();
-        this.aluno = Object.keys(this.alunos)[0];
         this.aula = Object.keys(this.alunos[this.aluno]).sort()[0];
     },
     mounted() {
@@ -25,11 +24,11 @@ createApp({
         return {
             w: 200,
             titulo: 'Aluno',
-            aluno: 'João',
+            aluno: 'Selecione um aluno',
             alunos: [],
-            aula: '',
+            aula: 'Selecione uma aula',
             linkFrame: '',
-            porAula: true,
+            porAula: false,
             rail: false,
         }
     },

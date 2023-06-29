@@ -41,7 +41,7 @@
             </v-main>
 
 
-            <v-navigation-drawer permanent clipped :rail="porAula ? !rail : false" :width="porAula ? w : 80">
+            <v-navigation-drawer permanent clipped :rail="aluno == 'Selecione um aluno' ? false : porAula ? !rail : false" :width="aluno == 'Selecione um aluno' ? '0' : porAula ? w : 80">
                 <v-list v-if="!porAula" v-for="item in listaAulasPorAluno" id="aulas"
                     :class="{active: item.aula === aula}">
                     <v-list-item :disabled="item.link === ''" @click="trocaIframe(item, $event)">
@@ -60,7 +60,7 @@
                 </div>
             </v-navigation-drawer>
 
-            <v-footer :class="porAula ? 'aula' : 'aluno'" style="font-size: 10px;">
+            <v-footer :class="aluno == 'Selecione um aluno' ? '' : porAula ? 'aula' : 'aluno'" style="font-size: 10px;">
                 <v-row class="align-center">
                     <v-col>
                         <div>Linguagem de Programação Web</div> 
