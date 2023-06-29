@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color:rgb(9, 158, 158)
+}
+h2{
+    text-align: center;
+    color: rgb(9, 158, 158);
+}
+img{
+    margin: auto;
+    width: 30%;
+}
+
+button{
+    padding: 10px;
+    margin-left: 850px;
+}
+
+#minmin{
+    display: flex;
+}

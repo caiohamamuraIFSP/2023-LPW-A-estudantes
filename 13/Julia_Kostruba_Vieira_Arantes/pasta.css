@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    margin: auto;
+    width: 30%;
+}
+
+button{
+    padding: 10px;
+    margin-left: 850px;
+}
+
+#juju{
+    display: flex;
+}

@@ -1,0 +1,22 @@
+h1{
+    
+    text-align: center;
+    color:rgb(7, 102, 35);
+}
+h2{
+    text-align: center;
+    color: rgb(7, 102, 35);
+}
+img{
+    margin: auto;
+    width: 50%;
+}
+
+button{
+    padding: 10px;
+    margin-left: 850px;
+}
+
+#tawtaw{
+    display: flex;
+}

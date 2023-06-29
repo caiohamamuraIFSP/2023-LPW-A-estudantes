@@ -1,0 +1,34 @@
+
+[
+    
+    {
+        "titulo":"Sugestões filmes 2023",
+        "filme": "Velozes e Furiosos",
+        "ano": 2023,
+        "horas": "2h 21min",
+        "imagem":"https://cinepop.com.br/wp-content/uploads/2023/05/velozes-e-furiosos-10.webp" 
+    },
+    {
+        "titulo":"",
+        "filme": "A Pequena Sereia",
+        "ano":2023,
+        "horas":"2h 15min" ,
+        "imagem": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2TnX0vKZBkgCKq_oKdTSwQBvsFicb4IK9eJYTvKI1NLEIT3tW"
+    },
+    {
+        "titulo":"",
+        "filme": "Homem Aranha:Atraves do Aranhaverso",
+        "ano":2023,
+        "horas": "2h 16min",
+        "imagem": "https://jardimdasamericas.com.br/uploads/2023/06/capa-filme-homem-aranha-atraves-do-aranhaverso-30656-large.jpeg"
+    },
+    {
+        "titulo":"",
+        "filme": "The Flash",
+        "ano":2023,
+        "horas":"2h 35min",
+        "imagem": "https://cinepop.com.br/wp-content/uploads/2023/06/the-flash-2023.png"
+    }
+    
+
+]
