@@ -10,7 +10,7 @@ const reset = document.querySelector('.reset');
 
 //Definindo seus estilos
 contagemEl.style.display = 'none';
-mario.src = '/assets/mario.gif';
+mario.src = 'assets/mario.gif';
 mario.style.animation = 'none';
 pipe.style.animation = 'none';
 pipe.style.left = '2000px';
@@ -22,7 +22,7 @@ function startar() {
     clouds.style.left = '';
     mario.style.animation = '';
     mario.style.bottom = '0px';
-    mario.src = '/assets/mario.gif';
+    mario.src = 'assets/mario.gif';
     mario.style.width = '150px';
     mario.style.transform = 'rotate(0deg)';
     fim.style.display = 'none';
@@ -62,7 +62,7 @@ function loop() {
             clouds.style.animation = 'none';
             clouds.style.left = `${cloudsPosition}px`;
     
-            mario.src = '/assets/game-over.png';
+            mario.src = 'assets/game-over.png';
             mario.style.width = '75px';
             mario.style.marginLeft = '50px';
             mario.style.transform = 'rotate(-2deg)';

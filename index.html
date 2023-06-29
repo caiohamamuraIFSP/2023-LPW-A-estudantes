@@ -16,7 +16,7 @@
     <div id="app">
         <v-app>
             <div>
-                <v-toolbar dark prominent image="/img/banner_dark.png">
+                <v-toolbar dark prominent image="img/banner_dark.png">
                     <v-icon :icon="porAula ? 'mdi-lead-pencil' : 'mdi-school'" @click="porAula = !porAula;this.rail = !porAula;"></v-icon>
                     <v-autocomplete v-if="!porAula" variant="underlined" :items="listaAlunos"
                         v-model="aluno" @update:model-value="alunoAlterado"></v-autocomplete>
