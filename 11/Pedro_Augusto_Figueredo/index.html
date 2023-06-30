@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Atividade 11 - Jogo</title>
+  <style>
+    h3{
+      text-align: center;
+    }
+    canvas {
+      background-color: #f0f0f0;
+      display: block;
+      margin: 0 auto;
+    }
+    .hidden {
+      display: none;
+    }
+    #gameOverContainer {
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    #restartButton {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+</head>
+<body>
+  <h3>O objetivo do jogo é passar pelos obstáculos e chegar no ponto azul</h3>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+  <div id="gameOverContainer" class="hidden">
+    <p>Fim de Jogo!</p>
+    <button id="restartButton">RECOMEÇAR</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

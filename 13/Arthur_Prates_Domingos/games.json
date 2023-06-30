@@ -1,0 +1,34 @@
+[
+    {
+        "game": "The Last of Us II",
+        "ano": 2020, 
+        "Prêmios": "259",
+        "Imagem": "https://images3.alphacoders.com/106/thumb-1920-1065466.png"
+    },
+    {
+        "game": "Spider Man",
+        "ano": 2020, 
+        "Prêmios": "indicado a 7 categorias do The Games Awards",
+        "Imagem": "https://image.api.playstation.com/vulcan/img/rnd/202011/0714/Cu9fyu6DM41JPekXLf1neF9r.png"
+    },
+    {
+        "game": "Batman Arkham Knight",
+        "ano": 2015, 
+        "Prêmios": "BAFTA Video Games Award: Jogo Britânico e Empire Award: Melhor Video Game",
+        "Imagem": "https://i.pinimg.com/originals/19/24/48/1924482dcc7e268522e17a792bc40b4f.jpg"
+    },
+    {
+        "game": "God of War III",
+        "ano": 2010, 
+        "Prêmios": "5",
+        "Imagem": "https://i.ytimg.com/vi/Xui-mHD8CkM/maxresdefault.jpg"
+    },
+    {
+        "game": "UNIÃO SOVIÉTICA THE GAME (ou não)",
+        "ano": 1922, 
+        "Prêmios": "Arthur Awards: Nação mais promissora",
+        "Imagem": "https://socientifica.com.br/wp-content/uploads/2021/07/Lenin-e-a-queda-do-socialismo-na-uniao-sovietica.jpg"
+    }
+
+
+]

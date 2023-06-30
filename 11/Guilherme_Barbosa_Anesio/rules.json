@@ -1,0 +1,3 @@
+{
+    "rules": "Snake Game\n\n- O objetivo do jogo é controlar a cobra e comer o máximo de comida possível.\n\n- Use as teclas de seta para mover a cobra para cima, para baixo, para a esquerda ou para a direita.\n\n- A cobra não pode atravessar as bordas do campo ou colidir com seu próprio corpo. Se isso acontecer, o jogo acaba.\n\n- A comida aparecerá aleatoriamente no campo. Coma a comida para ganhar pontos e fazer a cobra crescer.\n\n- Algumas comidas podem ser perigosas! Fique atento à forma da comida: maçãs quadradas são seguras, mas círculos vermelhos são venenosos e fazem o jogo terminar.\n\n- A cada 05 segundos, a forma da comida muda, aumentando o desafio do jogo.\n\n"
+}

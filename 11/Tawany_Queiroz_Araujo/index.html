@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Joguinho</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(198, 245, 198);
+    }
+
+    #jogo {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      border: 1px solid black;
+      overflow: hidden;
+    }
+
+    #personagem {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(50, 131, 25);
+      top: 0;
+      left: 0;
+    }
+
+    .obstaculo {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: rgb(84, 219, 95);
+      animation: obstaculoMove linear infinite;
+    }
+
+    @keyframes obstaculoMove {
+      0% {
+        transform: translateX(400px);
+      }
+      100% {
+        transform: translateX(-50px);
+      }
+    }
+  </style>
+</head>
+<body>
+   <div id="jogo">
+    <div id="personagem"></div>
+    <div class="obstaculo" style="top: 50px; left: 280px;"></div>
+    <div class="obstaculo" style="top: 155px; left: 170px;"></div>
+    <div class="obstaculo" style="top: 300px; left: 75px;"></div>
+  </div>
+
+  <script src="jogo.js"></script>
+</body>
+</html>

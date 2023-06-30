@@ -1,0 +1,111 @@
+* {
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#divlogo{
+   position: absolute;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   height: 300px;
+   width: 100%;
+   align-items: center;
+}
+.logo{
+   position:relative;
+   height: 500px;
+   width: 600px;
+}
+.game-board {
+    width: 100%;
+    height: 550px;
+    border-bottom: 12px solid rgb(28, 29, 29);
+    margin: 0 autos;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#0e0e0e, #1b0683);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDBLHFKv1bGiuTyq6Wt3O6PX1mdZU-SFBk3Q&usqp=CAU");
+}
+.thanos{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    animation: thanos-animation 1.5s infinite linear;
+    
+}
+.asteroide{
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   animation: asteroide-animation 50.0s infinite;
+}
+.meteoro{
+   position: absolute;
+   width: 200px;
+   height: 500px;
+   animation: meteoro-animation 10.0s infinite linear;
+}
+
+
+.spiderman{
+   width: 200px;
+   position:absolute;
+   bottom: 0;
+  
+}
+.jump{
+   animation: jump 500ms  ease-out;
+}
+@keyframes asteroide-animation{
+   from{
+      bottom: 60%;
+      right: 100%;
+   }
+   to{
+      bottom: 60%;
+      right: -10%;
+   }
+}
+@keyframes meteoro-animation{
+    from{
+      right: -200px;
+      bottom: 100%;
+    }
+    
+    to{
+      right: 700px;
+      bottom:-400px;
+    }
+}
+
+@keyframes thanos-animation {
+    from{
+       right: -100px;
+    }
+
+    to {
+       right: 100%;
+    }
+}
+@keyframes jump{
+   0%{
+      bottom: 0;
+   }
+
+   40%{
+      bottom: 180px;
+   }
+
+   50%{
+      bottom: 180px;
+   }
+
+   60%{
+      bottom: 180px;
+   }
+
+   100%{
+      bottom: 0;
+   }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    canvas {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game-canvas" width="400" height="400"></canvas>
+
+  <script>
+    const canvas = document.getElementById("game-canvas");
+    const ctx = canvas.getContext("2d");
+
+    const tileSize = 20;
+    const gridSize = canvas.width / tileSize;
+
+    let snake = [
+      { x: 10, y: 10 },
+      { x: 9, y: 10 },
+      { x: 8, y: 10 }
+    ];
+    let apple = { x: 15, y: 10 };
+    let direction = "right";
+    let score = 0;
+    let gameover = false;
+
+    function drawSnake() {
+      ctx.fillStyle = "#5BC236";
+      snake.forEach(segment => {
+        ctx.fillRect(segment.x * tileSize, segment.y * tileSize, tileSize, tileSize);
+      });
+    }
+
+    function drawApple() {
+      ctx.fillStyle = "#FF3030";
+      ctx.fillRect(apple.x * tileSize, apple.y * tileSize, tileSize, tileSize);
+    }
+
+    function update() {
+      if (gameover) return;
+
+      const head = { x: snake[0].x, y: snake[0].y };
+
+      switch (direction) {
+        case "up":
+          head.y--;
+          break;
+        case "down":
+          head.y++;
+          break;
+        case "left":
+          head.x--;
+          break;
+        case "right":
+          head.x++;
+          break;
+      }
+
+      if (isCollision(head)) {
+        endGame();
+        return;
+      }
+
+      snake.unshift(head);
+
+      if (head.x === apple.x && head.y === apple.y) {
+        generateApple();
+        score++;
+      } else {
+        snake.pop();
+      }
+
+      draw();
+      setTimeout(update, 150);
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawSnake();
+      drawApple();
+      drawScore();
+    }
+
+    function isCollision(position) {
+      if (
+        position.x < 0 ||
+        position.y < 0 ||
+        position.x >= gridSize ||
+        position.y >= gridSize
+      ) {
+        return true;
+      }
+
+      for (let i = 1; i < snake.length; i++) {
+        if (position.x === snake[i].x && position.y === snake[i].y) {
+          return true;
+        }
+      }
+
+      return false;
+    }
+
+    function generateApple() {
+      do {
+        apple.x = Math.floor(Math.random() * gridSize);
+        apple.y = Math.floor(Math.random() * gridSize);
+      } while (isCollision(apple));
+    }
+
+    function endGame() {
+      gameover = true;
+      ctx.fillStyle = "#FFF";
+      ctx.font = "30px Arial";
+      ctx.fillText("Fim de Jogo", canvas.width / 2 - 100, canvas.height / 2);
+      ctx.font = "20px Arial";
+      ctx.fillText("Pontuação: " + score, canvas.width / 2 - 70, canvas.height / 2 + 40);
+    }
+
+    function drawScore() {
+      ctx.fillStyle = "#FFF";
+      ctx.font = "16px Arial";
+      ctx.fillText("Pontuação: " + score, 20, 30);
+    }
+
+    function handleKeyDown(event) {
+      if (gameover) return;
+
+      switch (event.key) {
+        case "ArrowUp":
+          if (direction !== "down") {
+            direction = "up";
+          }
+          break;
+        case "ArrowDown":
+          if (direction !== "up") {
+            direction = "down";
+          }
+          break;
+        case "ArrowLeft":
+          if (direction !== "right") {
+            direction = "left";
+          }
+          break;
+        case "ArrowRight":
+          if (direction !== "left") {
+            direction = "right";
+          }
+          break;
+      }
+    }
+
+    document.addEventListener("keydown", handleKeyDown);
+    generateApple();
+    update();
+  </script>
+</body>
+</html>

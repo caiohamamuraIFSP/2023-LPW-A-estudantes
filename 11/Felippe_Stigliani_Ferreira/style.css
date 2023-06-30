@@ -1,0 +1,12 @@
+canvas {
+    width: min(176.777777778vh, 100vw);
+    height: min(100vh, 56.25vw);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}

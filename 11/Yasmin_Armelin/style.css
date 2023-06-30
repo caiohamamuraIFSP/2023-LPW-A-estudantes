@@ -1,0 +1,33 @@
+#gameArea {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(62, 5, 85);
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.barra {
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    background-color: white;
+}
+#barra1 {
+    left: 10px;
+}
+#barra2 {
+    right: 10px;
+}
+#bola {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+#placar {
+    position: absolute;
+    top: 10px;
+    left: 260px;
+    color: white;
+    font-size: 20px;
+}

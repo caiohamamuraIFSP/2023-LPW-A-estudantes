@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "1º - Avatar (2009)",
+        "imagem": "assets/avatar.png"
+    },
+    {
+        "nome": "2º - Vingadores: Ultimato (2019)",
+        "imagem": "assets/vingadores4.jpg"
+    },
+    {
+        "nome": "3º - Avatar: O Caminho da Água (2022)",
+        "imagem": "assets/avatar2.jpg"
+    },
+    {
+        "nome": "4º - Titanic (1997)",
+        "imagem": "assets/titanic.png"
+    },
+    {
+        "nome": "5º - Star Wars: O Despertar da Força (2015)",
+        "imagem": "assets/starwars.jpg"
+    },
+    {
+        "nome": "6º - Vingadores: Guerra Infinita (2018)",
+        "imagem": "assets/vingadores3.jpg"
+    },
+    {
+        "nome": "7º - Homem-Aranha: Sem Volta Para Casa (2021)",
+        "imagem": "assets/homemaranha.jpg"
+    },
+    {
+        "nome": "8º - Jurassic World: O Mundo dos Dinossauros (2015)",
+        "imagem": "assets/jurassicworld.jfif"
+    },
+    {
+        "nome": "9º - O Rei Leão (2019)",
+        "imagem": "assets/reileao.jpg"
+    },
+    {
+        "nome": "10º - Os Vingadores (2012)",
+        "imagem": "assets/vingadores.jpg"
+    }
+]
